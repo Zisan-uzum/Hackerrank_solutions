@@ -31,7 +31,7 @@ int main()
     {
         int val;
         scanf("%d", &val);
-        int ind = binary_search(0,num-1, val);
+        int ind = find(0,num-1, val);
         if(val<= arr_b[ind] && val>= arr_a[ind]){
             printf("Yes\n");
         }else{
