@@ -33,9 +33,9 @@ int main()
         scanf("%d", &val);
         int ind = find(0,num-1, val);
         if(val<= arr_b[ind] && val>= arr_a[ind]){
-            printf("Yes\n");
+            printf("YES\n");
         }else{
-            printf("No\n");
+            printf("NO\n");
         }
         
     }
