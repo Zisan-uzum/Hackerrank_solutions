@@ -4,7 +4,7 @@ public:
         int l = 0;
         int h = nums.size()-1;
         int ans = -1;
-        while(l<=h){
+        while(l<h){
             int mid_index = (l + h + 1)/2;
             int guess_value = nums[mid_index];
             if(target< guess_value){
@@ -15,6 +15,9 @@ public:
                 return mid_index;
             }
            
+        }
+        if(target == nums[l]){
+            return l;
         }
         
              return -1;
