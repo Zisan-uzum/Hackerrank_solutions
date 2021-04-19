@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch first_unique_integer",
+            "request": "launch",
+            "mainClass": "first_unique_integer",
+            "projectName": "hackerrank_solutions_3296a082"
+        },
+        {
+            "type": "java",
             "name": "Launch valid_palindrome",
             "request": "launch",
             "mainClass": "valid_palindrome",
